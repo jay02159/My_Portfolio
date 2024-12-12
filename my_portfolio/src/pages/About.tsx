@@ -8,7 +8,7 @@ import ExperienceList from '../components/about/ExperienceList';
 const About = () => {
   const handleDownload = () => {
     // Replace with your actual CV link
-    window.open('https://yourportfolio.com/cv', '_blank');
+    window.open('https://docs.google.com/document/d/1RW0YMwWGQAPg8E7oQDw6IhtLWif5Wi-o/edit?usp=sharing&ouid=117454860791970025482&rtpof=true&sd=true', '_blank');
   };
   return (
     <PageContainer>
