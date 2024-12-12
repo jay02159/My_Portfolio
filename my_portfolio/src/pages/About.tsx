@@ -28,7 +28,7 @@ const About = () => {
         <ExperienceList />
       </div>
 
-      <div className="bg-zinc-50 rounded-3xl p-6">
+      <div className="bg-zinc-900 rounded-3xl p-6">
         <button 
           onClick={handleDownload}
           className="w-full flex items-center justify-center gap-2 bg-grey-200 hover:bg-grey-50 text-black font-semibold py-3 rounded-xl transition-colors duration-300 ease-in-out"
