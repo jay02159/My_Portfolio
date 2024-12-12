@@ -21,6 +21,9 @@ const ProfileCard = () => {
           <TypewriterEffect text="Creative Developer & Designer" />
         </div>
       </div>
+      <p className="text-zinc-400 mt-4 text-sm">
+        <TypewriterEffect text="Empowering businesses with AI-driven innovations, I craft seamless user experiences by blending advanced technology with design excellence." />
+      </p>
     </div>
   );
 };
