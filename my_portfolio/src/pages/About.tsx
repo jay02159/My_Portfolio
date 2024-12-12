@@ -1,10 +1,15 @@
 import React from 'react';
+import { Download } from 'lucide-react';
 import PageContainer from '../components/layout/PageContainer';
 import BackButton from '../components/navigation/BackButton';
 import ProfileImage from '../components/about/ProfileImage';
 import ExperienceList from '../components/about/ExperienceList';
 
 const About = () => {
+  const handleDownload = () => {
+    // Replace with your actual CV link
+    window.open('https://yourportfolio.com/cv', '_blank');
+  };
   return (
     <PageContainer>
       <BackButton />
@@ -21,6 +26,16 @@ const About = () => {
         </p>
         
         <ExperienceList />
+      </div>
+
+      <div className="bg-zinc-900 rounded-3xl p-6">
+        <button 
+          onClick={handleDownload}
+          className="w-full flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-xl transition-colors duration-300 ease-in-out"
+        >
+          <Download size={20} />
+          Download CV
+        </button>
       </div>
     </PageContainer>
   );
