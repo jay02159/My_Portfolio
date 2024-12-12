@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Palette } from 'lucide-react';
+import { PaintBucket, Rocket, Zap, Palette } from 'lucide-react';
 import { SKILLS } from '../../constants/skills';
 
 const SkillsCard = () => {
