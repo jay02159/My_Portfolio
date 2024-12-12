@@ -1,0 +1,1 @@
+export const SKILLS = ['UI/UX', 'React', 'TypeScript', 'Figma', 'Node.js'];
