@@ -12,7 +12,7 @@ const ProfileCard = () => {
     >
       <div className="flex items-center gap-6">
         <img
-          src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=150&h=150&fit=crop"
+          src="https://ibb.co/Q9zs0BW?w=150&h=150&fit=crop"
           alt="Jay Kamuju"
           className="w-24 h-24 rounded-full object-cover border-2 border-zinc-700"
         />
