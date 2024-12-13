@@ -29,7 +29,7 @@ const SkillsCard = () => {
         {SKILLS.map((skill) => (
           <span key={skill} className="bg-zinc-800 px-3 py-1 rounded-full text-sm">
             {skillIcons[skill] || <Palette className="w-4 h-4 text-gray-400" />}
-            <span>{skill}</span>
+            <span className="pl-[2px]">{skill}</span>
           </span>
         ))}
       </div>
