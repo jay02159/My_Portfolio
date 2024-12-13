@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { PaintBucket, Rocket, Zap, Palette, Figma, Code, Terminal, Workflow, Bot, Box, Home } from 'lucide-react';
+import { PaintBucket, Rocket, Zap, Palette, Figma, Code, Terminal, Workflow, Bot, Box, HousePlug } from 'lucide-react';
 import { SKILLS } from '../../constants/skills';
 
   // Mapping skills to icons
@@ -13,7 +13,7 @@ const skillIcons: Record<string, React.ReactNode> = {
   'Prototyping': <Workflow className="w-4 h-4 text-orange-500" />,
   'AI Tools': <Bot className="w-4 h-4 text-teal-400" />,
   'Blender': <Box className="w-4 h-4 text-yellow-500" />,
-  'Iot Automation & Integration': <Home className="w-4 h-4 text-white-400" />,
+  'Iot Automation & Integration': <HousePlug className="w-4 h-4 text-white-400" />,
 };
 
 const SkillsCard = () => {
