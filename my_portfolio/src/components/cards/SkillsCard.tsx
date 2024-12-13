@@ -31,12 +31,10 @@ const SkillsCard = () => {
       <h3 className="text-lg font-semibold mb-2">Skills & Designs</h3>
       <div className="flex flex-wrap gap-2">
         {SKILLS.map((skill) => (
-         return (
-           <span key={skill} className="flex items-center bg-zinc-800 px-3 py-2 rounded-full text-sm whitespace-nowrap">
-            {icon || <Palette className="w-4 h-4 text-gray-400" />}
-            <span className="ml-[6px]">{skill}</span>
-           </span>
-          );
+          <span key={skill} className="flex items-center bg-zinc-800 px-3 py-2 rounded-full text-sm whitespace-nowrap">
+          {skillIcons[skill] || <Palette className="w-4 h-4 text-gray-400" />}
+          <span className="ml-[6px]">{skill}</span>
+          </span>
         ))}
       </div>
     </div>
