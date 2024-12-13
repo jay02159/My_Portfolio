@@ -10,10 +10,10 @@ const skillIcons: Record<string, React.ReactNode> = {
   'TypeScript': <Code className="w-4 h-4 text-indigo-400" />,
   'Figma': <Figma className="w-4 h-4 text-pink-400" />,
   'Node.js': <Terminal className="w-4 h-4 text-green-400" />,
-  'Prototyping': <Workflow className="w-4 h-4 text-orange-400" />,
-  'AI Tools': <Bot className="w-4 h-4 text-white-400" />,
-  'Blender': <Box className="w-4 h-4 text-yello-400" />,
-  'Iot Automation & Integration': <HousePlug className="w-4 h-4 text-red-400" />,
+  'Prototyping': <Workflow className="w-4 h-4 text-orange-500" />,
+  'AI Tools': <Bot className="w-4 h-4 text-teal-400" />,
+  'Blender': <Box className="w-4 h-4 text-yellow-500" />,
+  'Iot Automation & Integration': <HousePlug className="w-4 h-4 text-white-400" />,
 };
 
 const SkillsCard = () => {
