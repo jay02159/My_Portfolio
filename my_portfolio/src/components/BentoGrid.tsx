@@ -9,7 +9,7 @@ import Copyright from './Copyright';
 const BentoGrid = () => {
   return (
     <div className="min-h-screen bg-black text-white p-4 md:p-8 flex items-center justify-center">
-      <div className="max-w-7xl w-full">
+      <div className="max-w-10xl w-full">
         {/* First Row */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
           <ProfileCard />
