@@ -18,7 +18,7 @@ const ProfileCard = () => {
         />
         <div>
           <h1 className="text-2xl font-bold mb-2">Jay Kamuju</h1>
-          <TypewriterEffect text="Creative Developer & Designer" />
+          <TypewriterEffect text="Creative Visioner & Designer" />
         </div>
       </div>
       <p className="text-zinc-400 mt-4 text-sm">
