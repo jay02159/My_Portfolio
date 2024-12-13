@@ -5,7 +5,7 @@ import { SKILLS } from '../../constants/skills';
 
   // Mapping skills to icons
 const skillIcons: Record<string, React.ReactNode> = {
-  'UI/UX': <PaintBucket className="w-4 h-4 text-blue-400" />,
+  'UI/UX': <Palette className="w-4 h-4 text-blue-400" />,
   'React': <Zap className="w-4 h-4 text-cyan-400" />,
   'TypeScript': <Code className="w-4 h-4 text-indigo-400" />,
   'Figma': <Figma className="w-4 h-4 text-pink-400" />,
