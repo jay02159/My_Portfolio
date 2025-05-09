@@ -31,7 +31,7 @@ const About = () => {
       <div className="bg-white rounded-3xl p-6">
         <button 
           onClick={handleDownload}
-          className="w-full flex items-center justify-center gap-2 bg-grey-200 hover:bg-grey-50 text-white font-semibold py-3 rounded-xl transition-colors duration-300 ease-in-out"
+          className="w-full flex items-center justify-center gap-2 bg-grey-800 hover:bg-grey-700 text-white font-semibold py-3 rounded-xl transition-colors duration-300 ease-in-out"
         >
           <Download size={20} />
           Download CV
